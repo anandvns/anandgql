@@ -7,7 +7,7 @@ module.exports = {
     },
 
     database: {
-        HOST: process.env.MONGODB || 'mongodb://admin:admin$101@ds037165.mlab.com:37165/graphql',
+        HOST: process.env.MONGODB || 'mongodb://admin:admin101@ds037165.mlab.com:37165/graphql',
     },
 
 };
