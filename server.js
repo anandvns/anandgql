@@ -12,7 +12,7 @@ const expressGraphQL = require('express-graphql');
 const GraphQLSchema = require('./app/graphql');
 
 mongoose.Promise = require('bluebird');
-mongoose.connect( config.database.HOST );
+mongoose.connect( config.database.HOST, { useNewUrlParser: true } );
 
 const app = express();
 
